@@ -1,0 +1,5 @@
+interface:
+  display_name: "Session Handoff"
+  short_description: "Explicitly save and resume project handoffs"
+policy:
+  allow_implicit_invocation: false

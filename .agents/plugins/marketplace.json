@@ -1,0 +1,20 @@
+{
+  "name": "sekekama",
+  "interface": {
+    "displayName": "Sekekama"
+  },
+  "plugins": [
+    {
+      "name": "session-handoff",
+      "source": {
+        "source": "local",
+        "path": "./plugins/session-handoff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

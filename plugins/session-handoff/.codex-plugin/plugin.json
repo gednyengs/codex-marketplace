@@ -1,0 +1,28 @@
+{
+  "name": "session-handoff",
+  "version": "1.0.0+codex.20260921215646",
+  "description": "Explicitly save, browse, and resume topic-based handoffs across Codex sessions.",
+  "author": {
+    "name": "Gedeon Nyengele",
+    "url": "https://github.com/gednyengs"
+  },
+  "repository": "https://github.com/gednyengs/codex-marketplace",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Session Handoff",
+    "shortDescription": "Save and resume work with explicit handoffs.",
+    "longDescription": "Create portable Markdown checkpoints from the current conversation. Resume a selected handoff, browse recent work, or load a reference. All actions require an explicit skill invocation.",
+    "developerName": "Gedeon Nyengele",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "$session-handoff:session-handoff save",
+      "$session-handoff:session-handoff resume",
+      "$session-handoff:session-handoff list"
+    ]
+  }
+}
